@@ -10,7 +10,7 @@ table {
 }
 
 .tb-header {
-    background-color: aliceblue;
+    background-color: white;
 }
 
 div {
@@ -50,3 +50,10 @@ ul {
     border-radius: 50%;
 }
 
+.skills-tables-div {
+    background-color: lightgray;
+}
+
+.skills-table {
+    background-color: antiquewhite;
+}
