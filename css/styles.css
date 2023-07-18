@@ -1,12 +1,29 @@
 html {
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* Selector Grouping */
+html, .skills-tables-div {
     background-color: lightgray;
 }
 
-table {
+/* Selector Grouping */
+div, td, h2 {
+    text-align: center;
+}
+
+/* Selector Grouping */
+table, div {
     border: 1px solid black;
+}
+
+/* Selector Grouping */
+div, h2 {
+    margin: 2.5%;
+}
+
+table {
     width: 100%;
-    align-items: center;
 }
 
 .tb-header {
@@ -14,23 +31,17 @@ table {
 }
 
 div {
-    text-align: center;
     width: 90%;
-    border: 1px solid black;
     background-color: ghostwhite;
-    margin: 2.5%;
     padding: 2.5%;
 }
 
 td {
     width: 33%;
-    text-align: center;
 }
 
 h2 {
     width: 95%;
-    margin: 2.5%;
-    text-align: center;
 }
 
 ul {
@@ -48,10 +59,6 @@ ul {
 #resume-photo {
     height: 200px;
     border-radius: 50%;
-}
-
-.skills-tables-div {
-    background-color: lightgray;
 }
 
 .skills-table {
