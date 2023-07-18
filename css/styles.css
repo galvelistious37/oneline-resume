@@ -1,0 +1,33 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    align-items: center;
+}
+
+.tb-header {
+    background-color: aliceblue;
+}
+
+div {
+    width: 80%;
+    margin: 5% 10%;
+}
+
+td {
+    width: 33%;
+    text-align: center;
+}
+
+h2 {
+    background-color:burlywood;
+    text-align: center;
+}
+
+.profile {
+    border: none;
+}
+
