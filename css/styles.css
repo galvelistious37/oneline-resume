@@ -22,6 +22,63 @@ div, h2 {
     margin: 2.5%;
 }
 
+#header-div{
+    position: relative;
+    height: 250px;
+    width: 95%;
+    padding: 0;
+    text-align: left;
+}
+
+#header-name{
+    width: 90%;
+    height: 50px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 5%;
+    top: 30px;
+    background-color: whitesmoke;
+}
+
+#my-name{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    height: 40px;
+    width: 90%;
+}
+
+#resume-photo {
+    position: absolute;
+    right: 5%;
+    margin: 0;
+    height: 175px;
+    border-radius: 50%;
+}
+
+#header-title-links {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    width: 50%;
+    height: 140px;
+    position: relative;
+    top: 30px;
+    left: 5%;
+    border: none;
+}
+
+#header-title-links > h2, #header-title-links > a {
+    text-align: left;
+    margin: 5px 0px;
+    padding: 0;
+    position: relative;
+}
+
 table {
     width: 100%;
 }
@@ -54,11 +111,6 @@ ul {
 
 .left-align {
     text-align: left;
-}
-
-#resume-photo {
-    height: 200px;
-    border-radius: 50%;
 }
 
 .skills-table {
