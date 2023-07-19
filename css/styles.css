@@ -39,7 +39,8 @@ div, h2 {
     position: relative;
     left: 5%;
     top: 30px;
-    background-color: whitesmoke;
+    background-color: lightgray;
+    z-index: 1;
 }
 
 #my-name{
@@ -54,10 +55,24 @@ div, h2 {
 
 #resume-photo {
     position: absolute;
-    right: 5%;
+    right: 30px;
     margin: 0;
-    height: 175px;
+    height: 180px;
     border-radius: 50%;
+    z-index: 2;
+}
+
+#image-shadow {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    position: absolute;
+    right: 24px;
+    top: 47px;
+    z-index: 1;
 }
 
 #header-title-links {
