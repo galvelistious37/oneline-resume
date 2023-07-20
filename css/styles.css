@@ -132,30 +132,40 @@ ul {
     background-color: white;
 }
 
-.all-work{
+#work-history-div li {
+    margin: 10px 0px;
+}
+
+.all-work {
+    margin: 0px;
     display: none;
+    border: none;
+}
+
+.grid-display {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .left-work {
-    margin: 0px;
-    padding: 0px;
-    width: 45%;
-    display: inline-block;
+    border: none;
+    width: 90%;
 }
 
 .right-work {
-    margin: 0px;
-    padding: 0px;
-    width: 45%;
-    display: inline-block;
-}
-
-
-@media (min-width: 600px){
-    
+    border: none;
+    width: 90%;
 }
 
 @media (max-width: 600px){
-    
+    .all-work {
+        display: block;
+    }
 
+    .left-work, .right-work {
+        display: none;
+    }
 }
