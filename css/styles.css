@@ -131,3 +131,31 @@ ul {
 .skills-table {
     background-color: white;
 }
+
+.all-work{
+    display: none;
+}
+
+.left-work {
+    margin: 0px;
+    padding: 0px;
+    width: 45%;
+    display: inline-block;
+}
+
+.right-work {
+    margin: 0px;
+    padding: 0px;
+    width: 45%;
+    display: inline-block;
+}
+
+
+@media (min-width: 600px){
+    
+}
+
+@media (max-width: 600px){
+    
+
+}
