@@ -18,6 +18,11 @@ html, .skills-tables-div {
     margin-bottom: 0;
 }
 
+.section-header {
+    background-color: #EFEFEF;
+    padding: 1px;
+}
+
 #my-name {
     margin: 0;
     padding: 0;
@@ -68,6 +73,10 @@ html, .skills-tables-div {
     height: 180px;
     border-radius: 50%;
     z-index: 2;
+}
+
+.contact-me {
+    margin: 20px 0px 5px 0px;
 }
 
 table {
@@ -136,6 +145,10 @@ ul {
     width: 90%;
 }
 
+#hard-skills-div-small, #soft-skills-div-small {
+    display: none;
+}
+
 @media (max-width: 685px){
     .all-work {
         display: block;
@@ -167,10 +180,26 @@ ul {
     
     #resume-photo {
         margin-right: 15%;
-        bottom: 80px;
+        bottom: 90px;
         border: 1px solid black;
         height: 150px;
         border-radius: 50%;
         z-index: 2;
+    }
+
+    .title-inline {
+        font-size: 14pt;
+    }
+
+    .contact-me {
+        margin: 50px 0px 5px 0px;
+    }
+
+    #hard-skills-div-small, #soft-skills-div-small {
+        display: block;
+    }
+
+    #hard-skills-div, #soft-skills-div {
+        display: none;
     }
 }
