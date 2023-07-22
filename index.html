@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <div id="header-div">
-        <div id="header-name">
+    <div class="header-wrapper">
+        <div class="header-name">
             <h1 id="my-name">John Robertson</h1>
         </div>
-        <div id="image-shadow"></div>
-        <img id="resume-photo" src="./images/resume-photo.png" alt="a picture of me" />
-        <div id="header-title-links">
-            <h2>Resume</h2>
-            <h2>Associate Software Engineer</h2>
+        <div class="header-title">
+            <h2 class="title-inline">Resume</h2>
+            <h2 class="title-inline">Associate Software Engineer</h2>
+            <h2 class="title-inline">BS in Information Technology</h2>
+            <br />
             <a href="tel:5032708238"><img src="./images/phone-icon.png" height="30" alt="phone number"></a>
             <a href="sms:5032708238"><img src="./images/sms-icon.png" height="30" alt="sms message"></a>
             <a href="mailto:galvelistious37@gmail.com"><img src="./images/email-icon.jpg" height="30" alt="email address"></a>
@@ -23,26 +23,29 @@
             <br />
             <a href="./pages/about-me.html">About Me</a>
         </div>
+        <div class="header-image">
+            <img id="resume-photo" src="./images/resume-photo.png" alt="a picture of me" />
+        </div>
     </div>
-    <div id="summary-div">
+    <div id="summary-div" class="align-center">
         <hr />
         <h2>Summary</h2>
         <hr />
-        <p>
+        <p class="justified">
             I'm primarily a java developer who is actively learning new programming, web development, and DevOps skills, as well as any opportunity
             to increase my knowledge and understanding of said fields. I am a U.S. Navy verteran and I have a Bachelor of Science in Information Technology
             from the Oregon Institute of Technology. I enjoy solving problems, coding for large chunks of time, and that feeling you get when your code compiles.
             Thank you for taking the time to look at my resume project.
         </p>
     </div>
-    <div id="work-history-div">
+    <div id="work-history-div" class="align-center">
         <hr />
         <h2>Work History</h2>
         <hr />
         <h3>U.S. Bank (March 2019 - Current)</h3>
         <u>Associate Software Engineer</u>
-            <div class="all-work">
-                <ul>
+            <div class="all-work just">
+                <ul class="justified">
                     <li>Develop java programs to calculate and balance billions of dollars of daily check processing totals</li>
                     <li>Write software to generates reports and logs for auditing and daily checks, balances, and confirmations</li>
                     <li>Write precise SQL queries to aid in the devopment of banking balances and totals programs and reports</li>
@@ -75,7 +78,7 @@
         <h3>United States Navy (November 2010 – November 2014)</h3>
         <p>
             <u>Operations Specialist</u>
-            <ul>
+            <ul class="justified">
                 <li>Operate the Global Command and Control System (GCCS) to provide tactical information to all ships within the fleet</li>
                 <li>Relay classified information to superior officers</li>
                 <li>Lead a team of 15 junion personnel in completing routine tasks and ship maintenance</li>
@@ -83,35 +86,31 @@
             </ul>
         </p>
     </div>
-    <div id="education-div">
+    <div id="education-div" class="align-center">
         <hr />
         <h2>Education</h2>
         <hr />
         <h3>Oregon Institute of Technology</h3>
-        <p>
-            <u>Bachelor of Science in Information Technology</u>
+        <u>Bachelor of Science in Information Technology</u>
             <ul>
                 <li>Earned: June, 2018</li>
                 <li>GPA: 3.84 - Magna Cum Laude</li>
             </ul>
-        </p>
         <hr />
         <h3>Portland Community College</h3>
-        <p>
-            <u>Associate of Applied Science in Computer Information Systems</u>
-            <ul>
-                <li>Earned: June, 2016</li>
-                <li>GPA: 4.0 - Highest Honors</li>
-            </ul>
-            <br />
-            <u>Associate of Applied Science in CIS: Network Administration</u>
-            <ul>
-                <li>Earned: June, 2016</li>
-                <li>GPA: 3.95 - Highest Honors</li>
-            </ul>
-        </p>
+        <u>Associate of Applied Science in Computer Information Systems</u>
+        <ul>
+            <li>Earned: June, 2016</li>
+            <li>GPA: 4.0 - Highest Honors</li>
+        </ul>
+        <br />
+        <u>Associate of Applied Science in CIS: Network Administration</u>
+        <ul>
+            <li>Earned: June, 2016</li>
+            <li>GPA: 3.95 - Highest Honors</li>
+        </ul>
     </div>
-    <div id="skills-div">
+    <div id="skills-div" class="align-center">
         <hr />
         <h2>Skills</h2>
         <hr />
@@ -165,7 +164,7 @@
             </table> 
         </div>
     </div>
-    <div id="awards-div">
+    <div id="awards-div" class="align-center">
         <hr />
         <h2>Awards and Certifications</h2>
         <hr />
