@@ -111,6 +111,7 @@ table {
 
 .tb-header {
     background-color: aliceblue;
+    border-bottom: 1px solid lightgray;
 }
 
 div {
