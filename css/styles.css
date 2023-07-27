@@ -175,13 +175,13 @@ ul {
     display: none;
 }
 
-.edu-container {
+.edu-container, .project-container {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.edu-card {
+.edu-card, .project-card {
     flex: 1;
     max-width: 400px;
     background-color: aliceblue;
@@ -191,13 +191,29 @@ ul {
     text-align: center;
 }
 
-.edu-card > h3 {
+.edu-card > h3, .project-card > h3 {
     font-size: 1rem;
 }
 
 .edu-card li {
     list-style: none;
     margin-bottom: 5px;
+}
+
+.project-card > a {
+    padding: 0;
+    margin: 0;
+}
+
+.project-card  img {
+    width: 390px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+footer {
+    text-align: right;
 }
 
 @media (max-width: 685px){
@@ -251,13 +267,18 @@ ul {
         display: none;
     }
 
-    .edu-container {
+    .edu-container, .project-container {
         flex-direction: column;
         align-items: center;
         padding-bottom: 0;
     }
 
-    .edu-card {
+    .edu-card, .project-card {
         max-width: 230px;
+    }
+
+    .project-card  img {
+        width: 200px;
+        border: 1px solid black;
     }
 }
