@@ -1,3 +1,20 @@
+
+.gradient-image {
+    background-image: url("../images/code-header.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.gradient-transparent{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(103,113,185,0.50) 0%, rgba(255,255,255,1) 50%, rgba(103,113,185,0.50) 100%);
+}
+
+.feature-btn{
+    border: none;
+}
+
 html {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -95,6 +112,8 @@ html, .skills-tables-div {
 
 .flex-contact-wrapper {
     display: flex;
+    gap: 20px;
+    justify-content: flex-end;
 }
 
 .title-inline {
@@ -114,10 +133,10 @@ table {
     border-bottom: 1px solid lightgray;
 }
 
-div {
+/* div {
     background-color: ghostwhite;
     padding: 10px;
-}
+} */
 
 td {
     width: 33%;
