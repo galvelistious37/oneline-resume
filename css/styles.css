@@ -1,10 +1,4 @@
 
-.gradient-image {
-    background-image: url("../images/code-header.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-}
 
 .gradient-transparent{
     background: rgb(255,255,255);
@@ -13,6 +7,20 @@
 
 .feature-btn{
     border: none;
+}
+
+.feature-btn:hover{
+    background-color: rgba(103,113,185,0.50);
+}
+
+.feature-image{
+    width: 300px;
+    height: 200px;
+
+}
+
+.justify-center{
+    justify-content: center;
 }
 
 html {
@@ -231,9 +239,9 @@ ul {
     border: 1px solid black;
 }
 
-footer {
+/* footer {
     text-align: right;
-}
+} */
 
 @media (max-width: 685px){
 
