@@ -1,8 +1,16 @@
-
-
-.gradient-transparent{
+.gradient-to-bottom{
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(103,113,185,0.50) 0%, rgba(255,255,255,1) 50%, rgba(103,113,185,0.50) 100%);
+    background: linear-gradient(#3252E6 0%, rgba(255,255,255,1) 50%);
+}
+
+.gradient-to-top{
+    background: rgb(255,255,255);
+    background: linear-gradient(rgba(255,255,255,1) 50%, rgba(50, 82, 230, .5) 100%);
+}
+
+.gradient-green-top{
+    background: rgb(255,255,255);
+    background: linear-gradient(#5D9928 0%, rgba(255,255,255) 15%);
 }
 
 .feature-btn{
@@ -10,7 +18,7 @@
 }
 
 .feature-btn:hover{
-    background-color: rgba(103,113,185,0.50);
+    background-color: #5D9928;
 }
 
 .feature-image{
@@ -23,9 +31,28 @@
     justify-content: center;
 }
 
-html {
+h1, h2, h3 {
     font-family: 'Times New Roman', Times, serif;
 }
+
+.contact-icon:hover{
+    border-top: 3px solid #5D9928;
+    padding: 5px 0px 0px 0px;
+}
+
+.no-bullets{
+    list-style: none;
+}
+
+.border-green-top{
+    border-top: 2px solid #5D9928;
+}
+
+.border-green-left{
+    border-left: 1px solid #5D9928;
+}
+
+
 
 html, .skills-tables-div {
     background-color: lightgray;
