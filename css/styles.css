@@ -1,6 +1,6 @@
 .gradient-to-bottom{
     background: rgb(255,255,255);
-    background: linear-gradient(#3252E6 0%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(#3252E6 0%, rgba(255,255,255,1) 25%);
 }
 
 .gradient-to-top{
@@ -50,6 +50,10 @@ h1, h2, h3 {
 
 .border-green-left{
     border-left: 1px solid #5D9928;
+}
+
+.border-green-bottom{
+    border-bottom: 1px solid #5D9928;
 }
 
 
