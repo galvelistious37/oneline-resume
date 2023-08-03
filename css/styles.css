@@ -8,14 +8,6 @@
     background: linear-gradient(rgba(255,255,255,1) 50%, rgba(50, 82, 230, .5) 100%);
 }
 
-/* .gradient-tl-br-blue-green{
-    background-image: linear-gradient(to bottom right, 
-        rgba(50, 82, 230, .7) 0%, 
-        rgba(255,255,255, .1) 20%,
-        rgba(255,255,255, .5) 80%,
-        rgba(93, 153, 40, .5) 100%);
-} */
-
 .gradient-green-top{
     background: rgb(255,255,255);
     background: linear-gradient(#5D9928 0%, rgba(255,255,255) 15%);
@@ -75,115 +67,9 @@ h1, h2, h3, h4, .edu-container p {
     margin-bottom: 0;
 }
 
-.contact-me {
-    margin: 20px 0px 5px 0px;
-}
-
-.edu-container, .project-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.edu-card, .project-card {
-    flex: 1;
-    max-width: 400px;
-    background-color: aliceblue;
-    border: 1px solid lightgray;
-    padding-bottom: 0px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.edu-card > h3, .project-card > h3 {
-    font-size: 1rem;
-}
-
-.edu-card li {
-    list-style: none;
-    margin-bottom: 5px;
-}
-
-.project-card > a {
-    padding: 0;
-    margin: 0;
-}
-
-.project-card  img {
-    width: 390px;
-    padding: 0;
-    margin: 0;
-    border: 1px solid black;
-}
-
 @media (max-width: 685px){
-    
     .feature-image{
         width: 300px;
         height: 200px;
-    }
-
-    .flex-wrapper-info {
-        flex-direction: column-reverse;
-        padding: 0;
-        margin: 0;
-    }
-
-    .flex-card-info-wrapper {
-        padding-bottom: 0;
-        gap: 0;
-        margin-bottom: 0;
-    }
-
-    .flex-card-info {
-        padding-top: o;
-        margin-top: 0;
-    }
-
-
-    .flex-card-info  > div{
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    .all-work {
-        display: block;
-        padding-bottom: 0;
-    }
-
-    .left-work, .right-work {
-        display: none;
-    }
-
-    .title-inline {
-        font-size: 14pt;
-    }
-
-    .contact-me {
-        margin: 50px 0px px 0px;
-    }
-
-    #hard-skills-div-small, #soft-skills-div-small {
-        display: block;
-    }
-
-    #hard-skills-div, #soft-skills-div {
-        display: none;
-    }
-
-    .edu-container, .project-container {
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 0;
-    }
-
-    .edu-card, .project-card {
-        max-width: 230px;
-    }
-
-    .project-card  img {
-        width: 200px;
-        border: 1px solid black;
     }
 }
