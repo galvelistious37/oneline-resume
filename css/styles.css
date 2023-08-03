@@ -22,8 +22,8 @@
 }
 
 .feature-image{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 
 }
 
@@ -109,6 +109,11 @@ h1, h2, h3, .edu-container p {
 }
 
 @media (max-width: 685px){
+    
+    .feature-image{
+        width: 300px;
+        height: 200px;
+    }
 
     .flex-wrapper-info {
         flex-direction: column-reverse;
