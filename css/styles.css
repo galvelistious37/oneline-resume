@@ -31,7 +31,7 @@
     justify-content: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .edu-container p {
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -56,12 +56,6 @@ h1, h2, h3 {
     border-bottom: 1px solid #5D9928;
 }
 
-
-
-html, .skills-tables-div {
-    background-color: lightgray;
-}
-
 .align-center {
     text-align: center;
 }
@@ -73,164 +67,8 @@ html, .skills-tables-div {
     margin-bottom: 0;
 }
 
-.section-header {
-    background-color: #EFEFEF;
-    padding: 1px;
-}
-
-#my-name {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-}
-
-.grid-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.grid-cell-name {
-    grid-column: span 2;
-    grid-row: 1;
-    background-color: lightgray;
-}
-
-.flex-wrapper-name {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-    flex-wrap: wrap;
-    background-color: inherit;
-    padding: 0;
-    margin: 0;
-}
-
-.flex-card-name {
-    padding: 0 5px;
-    margin: 0 5px;
-    background-color: inherit;
-}
-
-.flex-card-name > h1 {
-    padding: 0;
-    margin: 0;
-}
-
-.flex-card-name > h2 {
-    padding: 0;
-    margin: .5rem 0 0 0
-}
-
-.grid-cell-info {
-    grid-column: span 2;
-    grid-row: 2;
-    margin: 0px;
-    padding: 0px;
-}
-
-.flex-wrapper-info {
-    display: flex;
-    gap: 10px;
-}
-
-.flex-card-info-wrapper {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#resume-photo {
-    height: 180px;
-    border-radius: 50%;
-}
-
-.flex-contact-wrapper {
-    display: flex;
-    gap: 20px;
-    justify-content: flex-end;
-}
-
-.title-inline {
-    margin: 0;
-}
-
 .contact-me {
     margin: 20px 0px 5px 0px;
-}
-
-table {
-    width: 100%;
-}
-
-.tb-header {
-    background-color: aliceblue;
-    border-bottom: 1px solid lightgray;
-}
-
-/* div {
-    background-color: ghostwhite;
-    padding: 10px;
-} */
-
-td {
-    width: 33%;
-}
-
-h2 {
-    width: 95%;
-}
-
-ul {
-    text-align: left;
-}
-
-.profile {
-    border: none;
-}
-
-.left-align {
-    text-align: left;
-}
-
-.skills-table {
-    background-color: ghostwhite;
-}
-
-#work-history-div li {
-    margin: 10px 0px;
-}
-
-.all-work {
-    margin: 0px;
-    display: none;
-    border: none;
-}
-
-.grid-display {
-    margin: 0px;
-    border: none;
-    padding: 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.left-work {
-    border: none;
-    width: 90%;
-}
-
-.right-work {
-    border: none;
-    width: 90%;
-}
-
-#hard-skills-div-small, #soft-skills-div-small {
-    display: none;
 }
 
 .edu-container, .project-container {
@@ -269,10 +107,6 @@ ul {
     margin: 0;
     border: 1px solid black;
 }
-
-/* footer {
-    text-align: right;
-} */
 
 @media (max-width: 685px){
 
